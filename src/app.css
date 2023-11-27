@@ -1,0 +1,90 @@
+html,
+body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	/* background-color: #111;
+	color: white; */
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+label {
+	display: block;
+}
+
+input,
+button,
+select,
+textarea {
+	font-family: inherit;
+	font-size: inherit;
+	-webkit-padding: 0.4em 0;
+	padding: 0.4em;
+	margin: 0 0 0.5em 0;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+}
+
+.ons-page__container, .ons-page__container--narrow {
+	overflow: visible !important;
+}
+
+/* .ons-header__top {
+	background: #222 !important;
+} */
+
+.ons-page__container--tall-height {
+	background: none !important;
+}
+
+svelte-scroller-outer {
+	pointer-events: none;
+}
+
+.ons-scroller-section {
+	overflow: visible !important;
+	pointer-events: all;
+}
+
+.ons-btn {
+	margin-top: 8px !important;
+	border-radius: 2px !important;
+}
+
+/* .ons-btn__text {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+} */
+
+.ons-checkboxes__item--ghost input {
+	color: white !important;
+}
+
+.ons-phase-banner {
+	position: relative;
+	background: var(--background, #222) !important;
+}
+
+.ons-checkboxes__item {
+	display: inline-block !important;
+}
+
+.ons-checkboxes__item + .ons-checkboxes__item {
+	margin-left: 24px;
+}
+
+.ons-scroller-section::after {
+	box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.2);
+}
+
+.ons-cookies-banner {
+	position: relative;
+	border-bottom: 1px solid var(--muted, #bbb);
+}
