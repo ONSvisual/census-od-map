@@ -17,4 +17,4 @@ Making changes to the app will require a working knowledge of Svelte Kit.
 
 ## Data files
 
-The necessary data files to run the app are included within the **/static/data** folder. These files are generated using custom scripts from [the source data on Nomis](https://www.nomisweb.co.uk/sources/census_2021_od). These scripts will be made available via a separate repo.
+The necessary data files to run the app are included within the **/static/data** folder. These files are generated using custom scripts from [the source data on Nomis](https://www.nomisweb.co.uk/sources/census_2021_od). These scripts can be found in [this repo](https://github.com/ONSvisual/census-od-data).
