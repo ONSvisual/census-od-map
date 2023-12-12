@@ -94,7 +94,7 @@
   select {
     height: 32px;
     background: var(--background, #222);
-    border-color: var(--muted, #aaa);
+    border: 1px solid var(--muted, #aaa);
     border-radius: 2px;
     color: var(--text, white);
   }
