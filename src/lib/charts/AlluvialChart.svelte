@@ -70,7 +70,7 @@
 			${data.map((msk) => `
 				L ${scales[keys[1]](msk.to_start)},80
 				L ${scales[keys[1]](msk.to_start + (msk.value / 2))},100
-				L ${scales[keys[1]](msk.to_start + msk.value - 0.1)},80`)}
+				L ${scales[keys[1]](msk.to_start + msk.value - 0.1)},80`).join(" ")}
 			L 100,80 Z`;	
 
 		_maskData = ((data) => {
