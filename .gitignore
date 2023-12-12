@@ -4,3 +4,4 @@
 *.bak
 .svelte-kit/
 /build/
+/package-lock.json
