@@ -3,5 +3,6 @@
 .DS_Store
 *.bak
 .svelte-kit/
+.vscode/
 /build/
 /package-lock.json
